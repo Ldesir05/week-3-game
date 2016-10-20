@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>The Hangman Game</title>
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/game.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+	<!--this is -->
+	<div id="HangmanImage"> 
+		<img src="http://www.mightycrusaders.net/images/hangman_title_lg.gif">
+	</div>
+	<div>
+		<div id="HangmanBody">
+		<!--<h1>Hangman</h1>-->
+			<div class="HangmanText">
+				<p class="hangman_labels">PICK YOUR LETTER!</p>
+				<br>
+				<p class="hangman_labels">WINS:</p>
+				<p class="hangman_counters" id="totalWins"></p>
+				<br>
+				<p class="hangman_counters" id="hangmanTargetWord"></p>
+				<br>
+				<p>GUESSES REMAINING:</p>
+				<br>
+				<P class="hangman_counters" id="guessesRemain"></P>
+				<br>
+				<p>LETTERS GUESSED</p>
+				<br>
+				<p class="hangman_counters" id="guessed"></p>
+
+			</div>
+		</div>
+	</div>
+		<footer id="HangmanFooter">
+			<p><strong>Thanks for Playing!</strong></p>
+		</footer>
+
+	<script src="assets/javascript/game.js"></script>
+</body>
+</html>
